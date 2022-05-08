@@ -1,0 +1,12 @@
+user , moderator ,publisher  ve admin adında 4 farklı kullanici tipimiz olsun.
+
+user > postedComment
+moderator ->deleteComment
+publisher->PublishArticle
+fonkisyonlarina sahip tir.
+
+moderator ve publisher user kullanıcısının özelliklerini alsın
+admin is bütün özellikleri alsın. Bu işlemleri yaparken Mixin kullan.
+mixin adi CanPublishArticle olsun.
+
+Admin bütün bu özellikleri
