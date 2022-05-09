@@ -1,0 +1,15 @@
+https://youtu.be/zqaSdsr-bvY
+
+bir string olusturun ve bu string tipindeki bütün veriler için
+capatalizeFirst adinda bir tane metod olusturun.Bu metod stringin ilk harfini büyük harfe çevirsin.
+diger bir method yazalım  oda girilen strşngin emailinin doğru olup olmadığını kontrol etsin.
+
+bunları extension ile  yapınız.
+  bool isValidEmail(Sring data ) {
+    return RegExp(
+            r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$')
+        .hasMatch(data);
+  }
+/////////////////////////////////
+flutter kullanarak center ve scaleEvenly
+  body: Text("aaa").scaleEvenly(8.0).center(), seklinde bir yapıyı elde edelim
